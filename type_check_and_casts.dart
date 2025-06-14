@@ -1,4 +1,4 @@
-// is = buat ngecek apakah value dari sebuah parameter itu ber object an tertentu
+// is = buat ngecek apakah value dari sebuah parameter itu sesuai dengan object yg kita tentukan
 // as = buat meyakinkan dart bahwa valu dari sebuah parameter itu  sudah pasti object itu
 
 
