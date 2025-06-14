@@ -1,3 +1,7 @@
+// Kata Kunci Super adalah kata kunci yg digunakan untuk mengakses method atau field yg berada di class parent,
+// jika sudah terlanjur di override
+
+
 class Kotak {
 
   // ini field parent
