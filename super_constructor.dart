@@ -2,7 +2,7 @@ class Manager {
   String? name; // ini field 
 
   Manager(this.name) { // > constructor ini memiliki paremeter name
-    print("Hai nama saya ${this.name}");
+    print("Hai nama saya $name");
   }
 }
 
