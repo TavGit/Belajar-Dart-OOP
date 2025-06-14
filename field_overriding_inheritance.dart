@@ -11,6 +11,7 @@ class Person {
 
 class OtherPerson extends Person {
   // field overriding
+  @override
   String name = "Other Person";
 }
 

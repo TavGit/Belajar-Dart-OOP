@@ -11,9 +11,11 @@ class Kotak {
 
 class Bulat extends Kotak {
   // ini field child
+  @override
   String name = "Acumalaka";
 
   // ini method child
+  @override
   int ambilKotak() {
     return 10;
   }

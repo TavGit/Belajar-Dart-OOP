@@ -15,6 +15,7 @@ class Karyawan extends Manager {
 
   // method overriding
   // mendeklarasikan ulang method yg berada di class parent
+  @override
   void sayHello(String name) {
     print("Hallo nama saya ${this.name} saya seorang Karyawan");
   }
