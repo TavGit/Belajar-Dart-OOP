@@ -1,8 +1,7 @@
 class Manager {
   String? name; // ini field 
 
-  Manager(String name) { // > constructor ini memiliki paremeter name
-    this.name = name;
+  Manager(this.name) { // > constructor ini memiliki paremeter name
     print("Hai nama saya ${this.name}");
   }
 }
