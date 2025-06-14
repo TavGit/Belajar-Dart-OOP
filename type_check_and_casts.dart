@@ -1,5 +1,5 @@
 // is = buat ngecek apakah value dari sebuah parameter itu sesuai dengan object yg kita tentukan
-// as = buat meyakinkan dart bahwa valu dari sebuah parameter itu  sudah pasti object itu
+// as = buat meyakinkan dart bahwa value dari sebuah parameter itu  sudah pasti object itu
 
 
 // Class paling dasar: Kendaraan
