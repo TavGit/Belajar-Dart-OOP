@@ -14,7 +14,7 @@ class Karyawan extends Manager {
 }
 
 void main() {
-  var manager = Manager("Gustav");
+  var manager = Manager("Gustav"); // > nilai/value Gustav > dikirim ke paremeter name constructor yg berada di class parent
   manager.name;
 
   var karyawan = Karyawan("Zidan"); // > nilai/value Zidan > dikirim ke paremeter name constructor yg berada di class parent
