@@ -5,7 +5,9 @@
 // throw Exception();
 
 // Membuat class exception sendiri
-class ValidationException {
+// implements Exception > menandakan bahwa kita mengimplementasi kan class Exception sebagai implements (implements adalah interface)
+// class Exception adalah class yg sudah disediakan oleh Dart
+class ValidationException implements Exception {
   String? pesan;
   ValidationException(this.pesan);
 }
