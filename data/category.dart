@@ -36,5 +36,12 @@ class Category {
   // nah jika id bukan dari product field ny id dari Category maka hasil ny false
   // nah jika name bukan dari product field ny name dari Category maka hasil ny false
   // jika memang kedua nya dari product, maka hasil ny true
-  
+
+  // Mengoverride hashCode supaaya menghasil kan kode unik yg sama,
+  // menggunakan cara HashCode Getter
+  int get hashCode {
+    var result = id.hashCode;
+    result += name.hashCode;
+    return result;
+  }
 }
